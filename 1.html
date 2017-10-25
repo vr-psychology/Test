@@ -47,11 +47,6 @@
   <script>
     AFRAME.registerComponent('main', {
         tick: function (t) {
-            if (app.saved_score > 0) {
-            if ((t >= 60000 + app.saved_score) && (t <= 60100 + app.saved_score)) {
-              AFRAME.log('Please progress to the next test.')
-            }
-            }
           var el = this.el;
           el.sceneEl.emit('recordscore', {points: t});
         }
