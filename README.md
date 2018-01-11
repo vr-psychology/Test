@@ -1,5 +1,5 @@
 # A Day In The Park
-*For BGSU Psychology*
+*For the BGSU Psychology department*
 
 ## Part 1
 
